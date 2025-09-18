@@ -26,8 +26,12 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-4">
             <a href="/" className="flex items-center space-x-4 hover:opacity-80 transition-opacity duration-300">
-              <div className="w-12 h-12 flex items-center justify-center" style={{ backgroundColor: '#917a52' }}>
-                <span className="text-white font-bold text-lg">A&H</span>
+              <div className="w-12 h-12 flex items-center justify-center">
+                <img 
+                  src="/images/logo pgk.png" 
+                  alt="PGO PGK Logo" 
+                  className="w-12 h-12 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-white text-xl font-serif tracking-wider">
